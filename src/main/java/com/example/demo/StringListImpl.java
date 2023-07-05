@@ -156,7 +156,7 @@ public class StringListImpl implements StringList {
 
     private void checkIndex(int index) {
         if (index < 0 || index > size) {
-            throw new IllegalArgumentException()
+            throw new IllegalArgumentException();
         }
     }
 }
